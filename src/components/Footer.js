@@ -7,10 +7,10 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
-                        Garrett Love
+                        Khan Ananta
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site was made by Garrett Love.
+                        This site was made.
                     </Col>
                 </Row>
             </Container>
