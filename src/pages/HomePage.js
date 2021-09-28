@@ -4,7 +4,7 @@ import Hero from '../components/Hero';
 
 function HomePage(props) {
     return (
-        <p>Hello</p>
+        <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
     );
 }
 
