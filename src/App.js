@@ -4,6 +4,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 
+import Footer from './components/Footer';
+
 
 class App extends React.Component {
   
@@ -43,7 +45,7 @@ class App extends React.Component {
             
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
-              <Nav className="ml-auto">
+              <Nav className="m-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
